@@ -7,6 +7,26 @@
 
 ForgeのURL：https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-installer.jar
 
+### ダウンロードしたファイルが起動できない場合
+JDKが入っていない可能性があるので下記のURLからダウンロード・インストールしてからもう一度実行してください。
+
+### JDKのURL
+<details open><summary>Windowsの場合</summary>
+https://download.oracle.com/java/22/latest/jdk-22_windows-x64_bin.msi
+</details>
+
+<details open><summary>Mac OSの場合</summary>
+https://download.oracle.com/java/22/latest/jdk-22_macos-x64_bin.dmg
+</details>
+
+<details open><summary>Linux（Debian系）の場合</summary>
+https://download.oracle.com/java/22/latest/jdk-22_linux-x64_bin.deb
+</details>
+
+<details open><summary>Linux（RedHat系）の場合</summary>
+https://download.oracle.com/java/22/latest/jdk-22_linux-x64_bin.rpm
+</details>
+
 ## 2.一度導入したForgeの動作確認
 一度Forge版マイクラを起動構成から起動してスタート画面が出たらマイクラを終了してください。
 これでModの導入準備は完了しました。
@@ -19,11 +39,13 @@ Forgeの1.20.1のバージョンにカーソルを合わせると、📁アイ�
 
 そのバージョンのマイクラのゲームデータフォルダが表示されるので「mods」というフォルダに移動してください。
 
-そのフォルダに下記のURLからダウンロードできる「forge_mods.zip」というファイルを解凍し、解凍したフォルダにある.jarファイルをすべてコピーしてください。
+そのフォルダに下記のURLからダウンロードできる「forge_mods.tar.gz」というファイルを解凍し、解凍したフォルダ（解凍したら「Mods_forge」という名前のフォルダが生成されます。）にある.jarファイルをすべてコピーしてください。
 
 注意：この時にフォルダー自体を移動してはいけません。必ず、「.jar」という拡張子のファイルだけをすべて入れてください。
 
 もう一度Forge版1.20.1のマイクラを起動するとmodが反映されます。
+
+ModsファイルのURL：https://picogram-hub.com/poty/forge_mods.tar.gz
 
 ### 方法２
 Minecraft LauncherからJava Editionの起動構成を選択します。
