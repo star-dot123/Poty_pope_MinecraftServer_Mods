@@ -21,10 +21,20 @@ https://download.oracle.com/java/22/latest/jdk-22_macos-x64_bin.dmg
 
 <details open><summary>Linux（Debian系）の場合</summary>
 https://download.oracle.com/java/22/latest/jdk-22_linux-x64_bin.deb
+
+コマンドでもインストール方法
+```shell
+sudo apt install openjdk-21-jdk
+```
 </details>
 
 <details open><summary>Linux（RedHat系）の場合</summary>
 https://download.oracle.com/java/22/latest/jdk-22_linux-x64_bin.rpm
+
+コマンドでもインストール方法
+```shell
+sudo debuginfo-install java-21-openjdk-devel
+```
 </details>
 
 ## 2.一度導入したForgeの動作確認
@@ -54,11 +64,17 @@ Forgeの1.20.1のバージョンにカーソルを合わせると、📁アイ�
 
 そのバージョンのマイクラのゲームデータフォルダが表示されるので「mods」というフォルダに移動してください。
 
-そのフォルダに下記のURLからダウンロードできる.jarファイルをすべてダウンロードしてください。
+そのフォルダに下記のURLのリポジトリの``Mods_forge``というフォルダからダウンロードできる.jarファイルをすべてダウンロードしてください。
 
 もう一度Forge版1.20.1のマイクラを起動するとmodが反映されます。
 
 Modsが保存されているリポジトリのURL：https://github.com/star-dot123/Poty_pope_MinecraftServer_Mods
+
+### 説明GIF動画
+
+#### forgeのmodsファイルの開き方
+
+  https://picogram-hub.com/poty/image/forge_start.gif
 
 ## 4.サーバーへの参加
 
@@ -66,24 +82,30 @@ Modsが保存されているリポジトリのURL：https://github.com/star-dot1
 
 スタート画面から「マルチサーバー」→「サーバーを追加」を選択し、「サーバーアドレス」の場所に下記のアドレスを入力してください。保存をしてサーバーに入ることが出来たら...君もぽ帝国民だ！！！
 
+### サーバーアドレス
+poty-pope.picogram-hub.com
+
 ### 参加希望を出して許可されてない場合
 
 参加許可が出るまでしばらくお待ちください。許可が出る前に上記の「参加希望を出して許可されている場合」の作業を済ますことをおすすめします。
 
 ### 参加希望を出してない場合
 
-参加希望の旨を #参加希望の方はこちら！！ というチャット欄でマイクラのJava版独自のユーザー名を「参加希望です！ユーザー名は「＊＊＊」です！」ってコメントしてください。
+参加希望の旨を #参加希望の方はこちら！！ というチャット欄で
+```
+参加希望です！ユーザー名は「＊＊＊」です！
+```
+ってコメントしてください。
 
 注意：「＊＊＊」にはマイクラのJava版独自のユーザー名に変更してください。
 
 参加希望コメントを提出した後は「参加希望を出して許可されてない場合」をお読みください。
 
-### サーバーアドレス
-poty-pope.picogram-hub.com
-
 ## 5.「参加希望を出して許可されている場合」を実行しても関連動画を見て実行しても参加できない場合
-「参加希望を出して許可されている場合」を実行しても関連動画を見て実行しても参加できない場合は #ぽてクラ総合 で「参加ができません」
+「参加希望を出して許可されている場合」を実行しても関連動画を見て実行しても参加できない場合は ``#ぽてクラ総合`` で「参加ができません」
 と入力し、参加時のエラー画面をスクショの上でお知らせください。オペレーターが対応さしていただきます。
+
+関連動画のURL：https://youtu.be/3rEg-s8p_K8
 
 ## ＊＊＊　注　意　＊＊＊
 
